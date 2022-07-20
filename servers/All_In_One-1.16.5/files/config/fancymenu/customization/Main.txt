@@ -1,0 +1,307 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 43
+}
+
+customization {
+  identifier = %id=376322%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 36
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  width = 200
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 79
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 0308ff62-ea90-4cb1-a6ee-7c19d284eec51658312213386
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 108
+  action = deep_customization_element:title_screen_branding
+  actionid = 64fe6576-fd4f-42e3-855c-18ff4fbb0e511658312213412
+  y = 198
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 191
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 983a416c-b243-44c4-95de-971b6ba457b01658312213412
+  y = 227
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 313
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 1cf5e61e-61f2-4ee6-bc96-b73af8bc67731658312213412
+  y = 161
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 73
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 75171295-e2a3-4a50-8b1c-b3f8787d8f121658312213413
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = false
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = e3f2c811-1e27-42c8-a02c-2d1ca97e19e41658312213413
+  y = 0
+  height = 30
+}
+
+customization {
+  path = ressources/board2.png
+  orientation = mid-centered
+  x = -96
+  width = 192
+  action = addtexture
+  actionid = 8b2d4a39-38c4-4170-81b2-d7a83d268f661658314183756
+  y = -35
+  height = 71
+}
+
+customization {
+  path = ressources/board.png
+  orientation = top-left
+  x = -13
+  width = 100
+  action = addtexture
+  actionid = f0639248-8244-4c4a-9f2e-472a288a5f0c1658313871405
+  y = 0
+  height = 99
+}
+
+customization {
+  path = ressources/logo_grand.png
+  orientation = bottom-left
+  x = 1
+  width = 52
+  action = addtexture
+  actionid = c273fd97-f244-48e6-a3f4-52689b5da1211658312714118
+  y = -22
+  height = 21
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  x = 63
+  action = addtext
+  actionid = 5f16ca0c-da99-496b-9dec-1eceeb361c4d1658313636982
+  y = -26
+  scale = 1.0
+  alignment = left
+  value = %serverping:45.140.164.184:25645%ms
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  x = 51
+  action = addtext
+  actionid = 19c9191b-195c-49da-a74d-596d8af633ee1658314290436
+  y = 18
+  scale = 1.0
+  alignment = left
+  value = %serverstatus:45.140.164.184:25645%
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  x = -85
+  action = addtext
+  actionid = f45d71c4-0efe-4b8f-b34d-45098b10f29d1658314443648
+  y = -25
+  scale = 1.0
+  alignment = left
+  value = %serverplayercount:45.140.164.184:25645%player(s)
+}
+
+customization {
+  orientation = mid-centered
+  shadow = true
+  x = -39
+  action = addtext
+  actionid = ed5283e4-1a44-4ba6-8229-e31eb3f928771658314766002
+  y = -13
+  scale = 1.0
+  alignment = left
+  value = §7Rejoins nous §c%playername%§7,
+}
+
+customization {
+  orientation = mid-centered
+  shadow = true
+  x = 7
+  action = addtext
+  actionid = 18c9bd0b-366c-448b-96ef-77a6e04144721658314897226
+  y = -2
+  scale = 1.0
+  alignment = left
+  value = §7sur le §3serveur§7.
+}
+
+customization {
+  path = ressources/logo_survie.png
+  orientation = mid-centered
+  x = -86
+  width = 46
+  action = addtexture
+  actionid = c115e575-0449-416a-bb59-c6f980877db91658315128819
+  y = -15
+  height = 44
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = joinserver
+  backgroundhovered = ressources\none.png
+  label = 
+  loopbackgroundanimations = true
+  x = 113
+  width = 192
+  actionid = 160447af-3889-4a48-9d48-c3940f46ce641658315223061
+  action = addbutton
+  y = 93
+  backgroundnormal = ressources\none.png
+  value = node2.incamc.com:25645
+  height = 71
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 18
+  slim = true
+  actionid = a9cea838-1db9-4193-b39a-f710440ca7c51658315665512
+  action = addentity
+  y = 65
+  scale = 15
+  playername = YassiGame
+  parrot = true
+}
+
+customization {
+  orientation = top-left
+  shadow = true
+  x = 27
+  action = addtext
+  actionid = 80aff74a-becf-462a-9600-2b501de6e5bc1658315854678
+  y = 54
+  scale = 0.55
+  alignment = left
+  value = §5Created by
+}
+
+customization {
+  orientation = top-left
+  shadow = true
+  x = 29
+  action = addtext
+  actionid = 4a0fa755-f1ea-4104-9989-cefcea0977b91658315857582
+  y = 59
+  scale = 0.7
+  alignment = left
+  value = §cYassiGame
+}
+
+customization {
+  path = ressources/bank.png
+  orientation = top-left
+  x = 29
+  width = 16
+  action = addtexture
+  actionid = 76165437-4936-4c6f-a9e8-8e84c3fca2641658317032898
+  y = 35
+  height = 20
+}
+
+customization {
+  path = ressources/corbeille.png
+  orientation = top-left
+  x = 47
+  width = 15
+  action = addtexture
+  actionid = 14baf542-4707-4c56-9b8c-129684363ae11658317072856
+  y = 35
+  height = 19
+}
+

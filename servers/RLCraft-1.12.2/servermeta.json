@@ -1,0 +1,16 @@
+{
+  "$schema": "file:///C:/Users/YassiPc/Documents/GitHub/YassiCorp-MC-Launcher-Files/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "RLCraft | Fork of YassiCorp (Minecraft 1.12.2)",
+    "icon": "https://cdn.discordapp.com/attachments/937796349884248104/999288200734457947/637751369169569212.png?size=4096",
+    "description": "RLCraft... t'es serieux ! Bah bonne chance.",
+    "address": "45.140.164.186:2569",
+    "mainServer": false,
+    "autoconnect": false
+  },
+  "forge": {
+    "version": "14.23.5.2859"
+  },
+  "untrackedFiles": []
+}

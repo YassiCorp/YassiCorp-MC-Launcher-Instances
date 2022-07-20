@@ -1,0 +1,15 @@
+{
+  "$schema": "file:///C:/Users/YassiPc/Documents/GitHub/YassiCorp-MC-Launcher-Files/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "Survie Vanilla ++ (Minecraft 1.16.5)",
+    "description": "Un vanilla Moddé ?! Enfin peut-etre...",
+    "address": "45.140.164.184:25645",
+    "mainServer": true,
+    "autoconnect": false
+  },
+  "forge": {
+    "version": "36.2.34"
+  },
+  "untrackedFiles": []
+}

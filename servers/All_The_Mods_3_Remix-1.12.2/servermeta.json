@@ -1,0 +1,16 @@
+{
+  "$schema": "file:///C:/Users/YassiPc/Documents/GitHub/YassiCorp-MC-Launcher-Files/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "All The Mods 3 Remix | Fork of YassiCorp",
+    "icon": "https://cdn.discordapp.com/attachments/937796349884248104/998297055053230100/unknown.png?size=4096",
+    "description": "All The Mods 3, un modpack préféré de la Corp.",
+    "address": "45.140.164.184:25489",
+    "mainServer": false,
+    "autoconnect": false
+  },
+  "forge": {
+    "version": "14.23.5.2859"
+  },
+  "untrackedFiles": []
+}
