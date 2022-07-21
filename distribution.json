@@ -1572,6 +1572,17 @@
           }
         },
         {
+          "id": "featuredservers.json",
+          "name": "featuredservers.json",
+          "type": "File",
+          "artifact": {
+            "size": 95,
+            "url": "https://github.com/YassiCorp/YassiCorp-MC-Launcher-Instances/raw/main/servers/All_In_One-1.16.5/files/config/FeaturedServers/featuredservers.json",
+            "MD5": "3b2b6386172f85c7222fd5a85fe2ab23",
+            "path": "config/FeaturedServers/featuredservers.json"
+          }
+        },
+        {
           "id": "additions-client.toml",
           "name": "additions-client.toml",
           "type": "File",
@@ -3949,6 +3960,16 @@
             "size": 26515,
             "url": "https://github.com/YassiCorp/YassiCorp-MC-Launcher-Instances/raw/main/servers/All_The_Mods_3_Remix-1.12.2/forgemods/required/FastWorkbench-1.12.2-1.7.3.jar",
             "MD5": "b55a31e4193204572acf05f78e0deedc"
+          }
+        },
+        {
+          "id": "io.alwa.featuredserver:featuredservers:1.12-1.0.6@jar",
+          "name": "Featured Servers",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4919,
+            "url": "https://github.com/YassiCorp/YassiCorp-MC-Launcher-Instances/raw/main/servers/All_The_Mods_3_Remix-1.12.2/forgemods/required/FeaturedServers-1.12-1.0.6.jar",
+            "MD5": "4f3a2c847b38321d900c986f663f4068"
           }
         },
         {
@@ -6646,6 +6667,17 @@
             "url": "https://github.com/YassiCorp/YassiCorp-MC-Launcher-Instances/raw/main/servers/All_The_Mods_3_Remix-1.12.2/files/config/Extreme%20Reactors/Extreme%20Reactors.cfg",
             "MD5": "e0a6644d98cdadebed405224f00f2f5c",
             "path": "config/Extreme Reactors/Extreme Reactors.cfg"
+          }
+        },
+        {
+          "id": "featuredservers.json",
+          "name": "featuredservers.json",
+          "type": "File",
+          "artifact": {
+            "size": 106,
+            "url": "https://github.com/YassiCorp/YassiCorp-MC-Launcher-Instances/raw/main/servers/All_The_Mods_3_Remix-1.12.2/files/config/FeaturedServers/featuredservers.json",
+            "MD5": "b6edbdeb1189b2bafe6a7a8e035b0efa",
+            "path": "config/FeaturedServers/featuredservers.json"
           }
         },
         {
@@ -29719,6 +29751,17 @@
             "url": "https://github.com/YassiCorp/YassiCorp-MC-Launcher-Instances/raw/main/servers/RLCraft-1.12.2/files/config/FBP/ParticleBlockExceptions.txt",
             "MD5": "d41d8cd98f00b204e9800998ecf8427e",
             "path": "config/FBP/ParticleBlockExceptions.txt"
+          }
+        },
+        {
+          "id": "featuredservers.json",
+          "name": "featuredservers.json",
+          "type": "File",
+          "artifact": {
+            "size": 92,
+            "url": "https://github.com/YassiCorp/YassiCorp-MC-Launcher-Instances/raw/main/servers/RLCraft-1.12.2/files/config/FeaturedServers/featuredservers.json",
+            "MD5": "c5efa2115de8f1ea2572ac7dd0fc581e",
+            "path": "config/FeaturedServers/featuredservers.json"
           }
         },
         {
